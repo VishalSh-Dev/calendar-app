@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import CommunicationMethod from '../backend/models/CommunicationMethod.js';
+import CommunicationMethod from '../models/CommunicationMethod.js';
 
 const router = Router();
 

@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import Company from '../backend/models/Company.js';
+import Company from '../models/Company.js';
 
 const router = Router();
 
