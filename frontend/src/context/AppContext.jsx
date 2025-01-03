@@ -9,7 +9,7 @@ export function AppProvider({ children }) {
   const [communications, setCommunications] = useState([]);
   const [notifications, setNotifications] = useState({ overdue: [], dueToday: [] });
 
-  const API_URL = 'http://localhost:5001/api';
+  const API_URL = 'https://calendar-app-backend-silk.vercel.app/api/';
 
   useEffect(() => {
     const loadInitialData = async () => {
