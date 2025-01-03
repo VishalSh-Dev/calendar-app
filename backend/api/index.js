@@ -1,9 +1,9 @@
 import express, { json } from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
-import companyRoutes from '../../routes/companyRoutes.js';
-import communicationMethodRoutes from '../../routes/communicationMethodRoutes.js';
-import communicationRoutes from '../../routes/communicationRoutes.js';
+import companyRoutes from '../routes/companyRoutes.js';
+import communicationMethodRoutes from '../routes/communicationMethodRoutes.js';
+import communicationRoutes from '../routes/communicationRoutes.js';
 import dotenv from 'dotenv';
 
 dotenv.config();
