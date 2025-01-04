@@ -9,7 +9,7 @@ export function AppProvider({ children }) {
   const [communications, setCommunications] = useState([]);
   const [notifications, setNotifications] = useState({ overdue: [], dueToday: [] });
 
-  const API_URL = 'https://calendar-app-backend-silk.vercel.app/api/';
+  const API_URL = import.meta.env.VITE_API_BASE_URL.replace(/\/$/, ''); // Remove trailing slash if present
 
   useEffect(() => {
     const loadInitialData = async () => {
@@ -198,4 +198,3 @@ export function AppProvider({ children }) {
 export function useAppContext() {
   return useContext(AppContext);
 }
-

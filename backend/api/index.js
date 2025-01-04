@@ -13,7 +13,9 @@ const PORT = process.env.PORT || 5001;
 const uri = process.env.MONGODB_URI;
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: ['http://localhost:5173', 'https://calendar-app-frontend-delta.vercel.app/'],
+}));
 app.use(json());
 
 // Connect to MongoDB
