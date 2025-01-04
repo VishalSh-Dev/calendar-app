@@ -14,7 +14,7 @@ const uri = process.env.MONGODB_URI;
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://calendar-app-frontend-delta.vercel.app/','https://calendar-app-frontend-delta.vercel.app/user','https://calendar-app-frontend-delta.vercel.app/admin','https://calendar-app-frontend-delta.vercel.app/reporting'],
+  origin: true, 
 }));
 app.use(json());
 
