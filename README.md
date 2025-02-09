@@ -1,7 +1,7 @@
 
 # Calendar App for Communication Tracking
 
-[Live Demo](https://calendar-app-frontend-delta.vercel.app/) 
+[Live Demo](https://communicationtracker.vercel.app/) 
 
 Communication Tracker is a comprehensive application designed to help businesses efficiently manage and track communications with clients and partners. It offers features such as communication logging, company and method management, and insightful reporting.  
 
